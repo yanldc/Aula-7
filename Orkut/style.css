@@ -1,0 +1,95 @@
+header{
+	background-color: #836FFF;
+	margin: 0;
+
+}
+
+body{
+	margin: 0;
+	background-color: #ADD8E6;
+}
+input{
+	text-align: right;i
+}
+
+
+/* imagens */
+.logo{
+	width: 70px;
+	height: 25px;
+	padding: 5px 15px;
+}
+
+
+.foto{
+	width: 170px;
+	height: 170px;
+  margin-top: 15px;
+  border: 2px solid black;
+}
+
+.foto2{
+	width: 90px;
+	height: 110px;
+  border: 2px solid black;
+}
+
+.lupa{
+	width: 16px;
+	height: 16px;
+}
+
+
+/* corpo da pagina */
+.container{
+	margin-top: 10px;
+  	display: flex;
+ 	flex-direction: row;
+  	justify-content: center;
+ 	align-items: flex-start;
+ 	column-gap: 5px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+}
+
+.esquerda{
+  background-color: whitesmoke;
+  width: 15em;
+  text-align: center;
+  font: arial;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.meio{
+  background-color: whitesmoke;
+  width: 50em;
+  text-align: center;
+  font: arial;
+  border-radius: 3px;
+
+}
+
+.direita{
+  background-color: whitesmoke;
+  width: 23em;
+  text-align: center;
+  font: arial;
+  border-radius: 3px;
+}
+
+
+/* cabeçaljo */
+.container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.esquerda2{
+  text-align: left;
+}
+.direita2{
+  margin-top: 15px;
+  margin-right: 20px;
+  text-align: right;
+}
